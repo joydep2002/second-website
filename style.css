@@ -50,6 +50,12 @@ section{
 }
 #imagesss{
     height: 200px;
+    border-left: 10px;
+    padding-left: 10px;
+    background-image: url("images/latest-work-bg.png");
+}
+.latest-work{
+    text-align: center;
 }
 .last-work{
     background-image: url("images/footer-bg.png");
