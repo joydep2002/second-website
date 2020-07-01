@@ -1,21 +1,28 @@
+body{
+    margin: 0px;
+}
 .first-font{
     font-family: 'Poppins', sans-serif
 }
 .second-font{
     font-family: 'Merriweather', serif;
     color: rgb(245, 83, 110);
+    font-size: 30px;
 }
 p{
     font-size: 16px;
     color: rgb(83, 80, 80);
     font-family: 'Poppins', sans-serif
 }
-
+.font-middle{
+    text-align: center;
+    padding-top: 0px;
+}
 .half-width{
     width: 40%;
     float: left;
     margin-left: 6%;
-    padding-left: 4%;
+    padding-left: 10px;
 }
 .half-width img{
     width: 100%;
@@ -26,13 +33,14 @@ p{
 }
 section{
     height: 400px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(60deg,pink,rgb(245,83,110));
     padding: 8px 15px;
     color: black;
+    border-radius: 5px;
 }
 .biography{
     background-image: url("images/biography-bg.png");
@@ -53,24 +61,26 @@ section{
     border-left: 10px;
     padding-left: 10px;
     background-image: url("images/latest-work-bg.png");
+    padding-top: 100px;
 }
 .latest-work{
     text-align: center;
 }
 .last-work{
     background-image: url("images/footer-bg.png");
+    padding-top: 100px;
 }
 .middle{
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
 }
 .last-part{
     font-size: 20px;
-    padding: 10px 10px;
+    padding: 10px 20px;
     text-align: center;
-    text-decoration: none;
-    background-color: palevioletred;
-    margin: 100px;
+    background-color: rgb(243, 94, 144);
+    margin: 200px;
     color: white;
 }
 footer{
