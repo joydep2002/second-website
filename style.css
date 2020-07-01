@@ -30,6 +30,7 @@ p{
 .top-banner{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
     height: 400px;
@@ -45,11 +46,13 @@ section{
 .biography{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .column{
     float: left;
     width: 30%;
     padding: 5px;
+    padding-right: 20px;
 }
 .row::after{
     content:"";
@@ -61,6 +64,7 @@ section{
     border-left: 10px;
     padding-left: 10px;
     background-image: url("images/latest-work-bg.png");
+    background-size: cover;
     padding-top: 100px;
 }
 .latest-work{
@@ -71,7 +75,9 @@ section{
 }
 .last-work{
     background-image: url("images/footer-bg.png");
+    background-size: 100% 100%;
     padding-top: 100px;
+    background-size: cover;
 }
 .middle{
     text-align: center;
